@@ -192,7 +192,7 @@ const users_info =[{
 
 function male_eligible(users){
     for (let i = 0;i < users.length;i+=1){
-        if (users[i].userage >= 18 && users[i].usergender === 'f'){
+        if (users[i].userage >= 18 && users[i].usergender === 'm'){
             console.log(users[i]);
         }        
     }   
@@ -206,7 +206,7 @@ let check_eligibile = male_eligible(users_info);
 function male_eligible(users){
     let eligiblemales =[]
     for (let i = 0;i < users.length;i+=1){
-        if (users[i].userage >= 18 && users[i].usergender === 'f'){
+        if (users[i].userage >= 18 && users[i].usergender === 'm'){
             eligiblemales.push(users[i]);
         }
     }
